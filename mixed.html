@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        p{
+            color: lightcoral;
+        }
+        #fifth, li{
+            font-family: cursive;
+            font-size: 26px;
+        }
+        .blog{
+            background-color: lightgoldenrodyellow;
+        }
+        .yellow, .holud{
+            color: yellowgreen;
+        }
+        .bold{
+            font-weight: 800;
+        }
+        input[type="password"]{
+            border-color: lightskyblue;
+        }
+        input{
+            color: green;
+        }
+        form{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h3>Explore mixed selectors</h3>
+    <p>funny line in 1 css</p>
+    <p class="yellow">funny line in 2 css</p>
+    <p>funny line in 3 css</p>
+    <p class="yellow bold">funny line in 4 css</p>
+    <p id="fifth" class="holud">funny line in 5 css</p>
+    <p>funny line in 6 css</p>
+    <p>funny line in 7 css</p>
+    <p>Selector Types</p>
+    <ol>
+        <li>Element Selector</li>
+        <li>Class Selector</li>
+        <li>ID Selector</li>
+        <li>Universal Selector</li>
+    </ol>
+    <form action="">
+        Email: <input type="email" name="" id=""><br><br>
+        Password: <input type="password" name="" id=""><br><br>
+        Captcha: <input type="text" name="" id=""><br>
+    </form>
+
+    <div class="blog">
+        <h3 style="color: red;">Regulations <i style="color: darkred;">!DO NOT IGNORE!</i></h3>
+        <p>
+            do not do what you should not do for you are not allowed to do so. do only what you can, never do more, never do less. do do do.
+        </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+#thr{
+    background-image: url("cryptomonkey.jpg");
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: center;
+    font-style: italic;
+    box-shadow: 15px 15px 10px;
+}
+li{
+    color: red;
+    font-family: cursive;
+}
+.task2{
+    font-size: x-large;
+}
+.fng{
+    background-image: url("guitarsaur.jpg");
+    background-position: 50% 0%;
+    background-size: 12%;
+    background-repeat: no-repeat;
+}
+.hehel{
+    display: inline-block;
+    font-size: larger;
+    margin: 25px;
+}
